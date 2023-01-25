@@ -5,7 +5,44 @@ is a public API for EV charging locations and new EV models in India. This GitHu
 
 ### Documentation
 
-`api.evmadhyam.live` Will available soon.
+#### GET
+
+All available location of Electric Charging station.
+```shell
+GET http://api.evmadhyam.live/api/v1/location
+```
+Specific state charging location
+```shell
+GET http://api.ev.madhyam.live/api/v1/location?state="West Bengal"
+```
+Find nearest charging station
+```shell
+GET http://api.evmadhyam.live/api/v1/location?pincode="700001"
+```
+#### POST
+Sign-up new user
+```shell
+POST http://api.evmadhyam.live/api/v1/account/signup/username="Anindra"&password="8ch98d3hshds"
+```
+Login new user
+```shell
+POST http://api.evmadhyam.live/api/v1/account/login/username="Anindra"&password="8ch98d3hshds"
+```
+
+| Veriables    | DataType | Value                                           |
+|--------------|----------|-------------------------------------------------|
+| id           | long     | Auto increment                                  |
+| address      | String   | full address of charging location               |
+| city         | String   | available city                                   |
+| availability | boolean  | now availabel or not                            |
+| isValidByGov | boolean  | Charging station is valided by Government or not |
+| latitude     | double   | location latitide                               |
+| longitude    | double   | location longitude                              |
+| name         | String   | name of the charging station                    |
+| zipcode      | long     | zipcode of charging station                     |
+| price        | string   | price free or not                               |
+| state        | String   | State of charging location                      |
+
 
 ### TODO
 
