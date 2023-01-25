@@ -65,6 +65,12 @@ POST http://api.evmadhyam.live/api/v1/account/login/username="Anindra"&password=
 3. 1 year free Intellij IDEA Unlimited and DataGrip for student
 
 ### Licence
+<center>
+
 ```md
-Apace Licence
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
 ```
+
+</center>
