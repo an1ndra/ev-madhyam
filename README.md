@@ -1,7 +1,7 @@
-# EV Madhyam β
+# EV Madhyam (under developement)
 ### About
 
-is a public API for EV charging locations and new EV models in India. This GitHub repo provides developers with access to a comprehensive database for integration into their apps. It helps users find nearby charging stations, check charging port availability and stay updated on new EV models in India. 
+It privide public API for EV charging locations and new EV models in India. This GitHub repo provides developers with access to a comprehensive database for integration into their apps. It helps users find nearby charging stations, check charging port availability and stay updated on new EV models in India. 
 
 ### Documentation
 
